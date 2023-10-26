@@ -1,4 +1,4 @@
-﻿namespace BogadoCandela_2C
+﻿namespace Entidades
 {
     public class Automovil : Vehiculo
     {

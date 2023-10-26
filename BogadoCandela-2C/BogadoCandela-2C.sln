@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BogadoCandela-2C", "BogadoCandela-2C\BogadoCandela-2C.csproj", "{80A4C0D7-72D9-4A03-B8EC-14F5F31F0478}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "BogadoCandela-2C\Entidades.csproj", "{80A4C0D7-72D9-4A03-B8EC-14F5F31F0478}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "View", "FrmView\View.csproj", "{626B34BF-5B28-4726-9169-3FA725703C36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{80A4C0D7-72D9-4A03-B8EC-14F5F31F0478}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80A4C0D7-72D9-4A03-B8EC-14F5F31F0478}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80A4C0D7-72D9-4A03-B8EC-14F5F31F0478}.Release|Any CPU.Build.0 = Release|Any CPU
+		{626B34BF-5B28-4726-9169-3FA725703C36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{626B34BF-5B28-4726-9169-3FA725703C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{626B34BF-5B28-4726-9169-3FA725703C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{626B34BF-5B28-4726-9169-3FA725703C36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

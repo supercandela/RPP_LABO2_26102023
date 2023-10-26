@@ -2,7 +2,7 @@
 using System.Runtime.Intrinsics.X86;
 using System;
 
-namespace BogadoCandela_2C
+namespace Entidades
 {
     public abstract class Vehiculo
     {

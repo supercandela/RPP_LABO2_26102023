@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace BogadoCandela_2C
+namespace Entidades
 {
     internal class Camioneta : Vehiculo
     {

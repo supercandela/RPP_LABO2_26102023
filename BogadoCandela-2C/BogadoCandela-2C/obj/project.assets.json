@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\X\\Prog-Labo-2\\repos\\Labo2\\RPP_LABO2_26102023\\BogadoCandela-2C\\BogadoCandela-2C\\BogadoCandela-2C.csproj",
-      "projectName": "BogadoCandela-2C",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\X\\Prog-Labo-2\\repos\\Labo2\\RPP_LABO2_26102023\\BogadoCandela-2C\\BogadoCandela-2C\\BogadoCandela-2C.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\X\\Prog-Labo-2\\repos\\Labo2\\RPP_LABO2_26102023\\BogadoCandela-2C\\BogadoCandela-2C\\Entidades.csproj",
+      "projectName": "Entidades",
+      "projectPath": "C:\\Users\\Administrator\\Desktop\\X\\Prog-Labo-2\\repos\\Labo2\\RPP_LABO2_26102023\\BogadoCandela-2C\\BogadoCandela-2C\\Entidades.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Administrator\\Desktop\\X\\Prog-Labo-2\\repos\\Labo2\\RPP_LABO2_26102023\\BogadoCandela-2C\\BogadoCandela-2C\\obj\\",
       "projectStyle": "PackageReference",
