@@ -63,6 +63,7 @@
                 if (v == vehiculo)
                 {
                     fabrica.vehiculos.Remove(v);
+                    return fabrica;
                 }
             }
             return fabrica;
