@@ -23,7 +23,8 @@ namespace FrmView
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            //this.fabrica = this.fabrica - Vehiculoseleccionado
+            int indice = this.lstVehiculos.SelectedIndex;
+            this.fabrica = this.fabrica - this.fabrica.Vehiculos[indice];
             this.Refrescar();
         }
 

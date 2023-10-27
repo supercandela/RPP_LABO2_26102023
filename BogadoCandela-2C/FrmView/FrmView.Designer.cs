@@ -65,7 +65,7 @@
             cmbTipo.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbTipo.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             cmbTipo.FormattingEnabled = true;
-            
+            cmbTipo.Items.AddRange(new object[] { "Automóvil", "Camioneta", "Moto" });
             cmbTipo.Location = new Point(1051, 100);
             cmbTipo.Name = "cmbTipo";
             cmbTipo.Size = new Size(326, 40);
