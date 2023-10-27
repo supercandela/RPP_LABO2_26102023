@@ -65,6 +65,7 @@
             cmbTipo.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbTipo.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             cmbTipo.FormattingEnabled = true;
+            
             cmbTipo.Location = new Point(1051, 100);
             cmbTipo.Name = "cmbTipo";
             cmbTipo.Size = new Size(326, 40);
@@ -89,6 +90,7 @@
             btnFabricar.TabIndex = 4;
             btnFabricar.Text = "Fabricar";
             btnFabricar.UseVisualStyleBackColor = true;
+            btnFabricar.Click += btnFabricar_Click;
             // 
             // btnEliminar
             // 
@@ -99,6 +101,7 @@
             btnEliminar.TabIndex = 5;
             btnEliminar.Text = "Eliminar";
             btnEliminar.UseVisualStyleBackColor = true;
+            btnEliminar.Click += btnEliminar_Click;
             // 
             // FrmView
             // 
@@ -111,8 +114,12 @@
             Controls.Add(cmbTipo);
             Controls.Add(lblTipo);
             Controls.Add(lstVehiculos);
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "FrmView";
-            Text = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Fabrica de Vehiculos";
             ((System.ComponentModel.ISupportInitialize)pcbFabrica).EndInit();
             ResumeLayout(false);
             PerformLayout();

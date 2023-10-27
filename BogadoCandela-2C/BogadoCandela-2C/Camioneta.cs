@@ -7,7 +7,7 @@ namespace Entidades
     {
         private bool cabinaSimple;
 
-        protected override string Tipo
+        protected new string Tipo
         {
             get
             {

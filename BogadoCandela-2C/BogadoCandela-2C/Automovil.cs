@@ -2,7 +2,7 @@
 {
     public class Automovil : Vehiculo
     {
-        protected override string Tipo
+        protected new string Tipo
         {
             get
             {

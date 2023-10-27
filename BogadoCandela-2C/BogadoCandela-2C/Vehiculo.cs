@@ -24,9 +24,12 @@ namespace Entidades
         /// <summary>
         /// Propiedad Tipo.
         /// </summary>
-        protected abstract string Tipo
+        protected string Tipo
         {
-            
+            get
+            {
+                return "Vehiculo";
+            }
         }
 
         /// <summary>
