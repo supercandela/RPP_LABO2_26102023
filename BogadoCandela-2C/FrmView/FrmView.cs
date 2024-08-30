@@ -13,7 +13,7 @@ namespace FrmView
         }
         private void FrmView_Load(object sender, EventArgs e)
         {
-            this.cmbTipo.Items.AddRange(new object[] { "Automóvil", "Camioneta", "Moto" });
+            this.cmbTipo.DataSource = new List<string>{ "Automóvil", "Camioneta", "Moto" };
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
